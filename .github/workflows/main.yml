@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore
-      run: dotnet restore ./demoDevOps.sln
+      run: dotnet restore  ./demoDevOps.sln
 
     - name: Build
       run: dotnet build  ./demoDevOps.sln --configuration Release --no-restore
