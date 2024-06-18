@@ -18,6 +18,7 @@ namespace demoDevOps.Controllers
             _logger = logger;
         }
 
+        // GetWeatherForecast method
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
